@@ -9,19 +9,21 @@ pageEncoding="ISO-8859-1"%>
 	<meta charset="ISO-8859-1">
 	<title>Technicians Management</title>
 	<link rel="stylesheet" href="Views/bootstrap.min.css">
+	<link rel="stylesheet" href="Views/technicians.css">
 	<script src="Components/jquery.min.js"></script>
 	<script src="Components/technicians.js"></script>
 	<script src="Components/auth.js"></script>
 </head>
 <body>
-	<div>
-	<button id="btnLogout">LogOut</button>
+	<div class="container">
+	<button id="btnLogout" class="btn btn-success" id="btnLogout" style="box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);">LogOut</button>
 	</div>
 	<div class="container">
 		<div class="row">
 			<div class="col-6">
 				<h1>Technicians Management</h1>
-				<form id="formTechnician" name="formTechnician">
+				<br>
+				<form id="formTechnician" name="formTechnician" >
 				Technician Name: <input id="name" name="name" type="text" class="form-control form-control-sm"> <br>
 				Technician Address: <input id="address" name="address" type="text" class="form-control form-control-sm"> <br>
 				Technician Email: <input id="email" name="email" type="text" class="form-control form-control-sm"> <br>

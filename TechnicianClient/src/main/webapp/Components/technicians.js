@@ -132,8 +132,46 @@ function onItemDeleteComplete(response, status)
 // CLIENT-MODEL================================================================ 
 
 function validateItemForm() { 
-    
-    
+// CODE
+if ($("#name").val().trim() == "")
+{
+return "Insert name";
+}
+
+if ($("#username").val().trim() == "")
+{
+return "Insert User Name";
+}
+
+if ($("#address").val().trim() == "")
+{
+return "Insert address";
+}
+
+if ($("#email").val().trim() == "")
+{
+return "Insert email";
+}
+
+if ($("#phone").val().trim() == "")
+{
+return "Insert phone number";
+}
+
+if ($("#type").val().trim() == "")
+{
+return "Insert type";
+}
+
+if ($("#salary").val().trim() == "")
+{
+return "salary";
+}
+
+if ($("#hourlywage").val().trim() == "")
+{
+return "Insert hourlywage";
+}
     
     
      

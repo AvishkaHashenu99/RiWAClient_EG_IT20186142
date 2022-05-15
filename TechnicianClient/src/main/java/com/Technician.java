@@ -41,7 +41,7 @@ public class Technician {
     		}
     		// Prepare the html table to be displayed
     		output = "<table border='1'><tr><th>Technician ID</th> <th>Technician Name</th><th>Technician Address</th>" 
-    		+ "<th>Technician Email</th> <th>Technician Phone</th> <th>Type</th> <th>ContractTech_Salary</th><th>HourlyTech_HourlyWages></th><th>Update</th><th>Remove</th></tr>";
+    		+ "<th>Technician Email</th> <th>Technician Phone</th> <th>Type</th> <th>ContractTech_Salary</th><th>HourlyTech_HourlyWages</th><th>Update</th><th>Remove</th></tr>";
     
     		String query = "select * from power_technician";
     		Statement stmt = con.createStatement();
